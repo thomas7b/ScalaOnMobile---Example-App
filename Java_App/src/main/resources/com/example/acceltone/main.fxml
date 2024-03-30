@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="paneMenu" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.acceltone.MenuPresenter">
+    <children>
+        <Button fx:id="accButton" layoutX="46.0" layoutY="108.0" mnemonicParsing="false" text="Beschleunigungssensor" AnchorPane.leftAnchor="46.0" AnchorPane.rightAnchor="46.80000000000001" AnchorPane.topAnchor="108.0" />
+        <Button fx:id="sigButton" layoutX="46.0" layoutY="162.0" mnemonicParsing="false" text="Signalgenerator" AnchorPane.leftAnchor="46.0" AnchorPane.rightAnchor="47.599999999999994" AnchorPane.topAnchor="162.0" />
+        <Label layoutX="82.0" layoutY="27.0" text="Menu (Java)" AnchorPane.leftAnchor="82.0" AnchorPane.rightAnchor="83.6" AnchorPane.topAnchor="27.0">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
