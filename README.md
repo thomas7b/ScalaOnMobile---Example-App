@@ -30,7 +30,7 @@ The project contains two main directories, each hosting a version of the applica
 - `Scala_App`: The Scala implementation.
 - `Java_App`: The Java implementation.
 
-For Android and iOS, pre-packaged APK files are available, facilitating easy installation and testing. The iOS versions were created via GitHub Actions and are not fully tested due to the missing hardware.
+For Android and iOS, pre-packaged APK files are available, facilitating easy installation and testing. The iOS versions were created via GitHub Actions and are not fully tested due to the missing hardware. They are also only available for the iOS Simulator.
 
 ## Getting Started
 
