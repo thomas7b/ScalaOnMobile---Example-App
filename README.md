@@ -18,8 +18,8 @@ The application offers two main functionalities:
    - Saves the audio file in an external directory managed by Gluon.
   
   <p float="left">
-  <img src="Screenshots/ScreenshotSiggen.png" width="20%" />
   <img src="Screenshots/Screenshotacc.png" width="20%" />
+  <img src="Screenshots/ScreenshotSiggen.png" width="20%" />
   <img src="Screenshots/Screenshotfft.png" width="20%" />
 </p>
 
