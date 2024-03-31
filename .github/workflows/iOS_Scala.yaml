@@ -1,4 +1,4 @@
-name: iOS
+name: iOS_Scala
 
 on:
   push:
