@@ -26,7 +26,7 @@ jobs:
         working-directory: Scala_App
 
       - name: Gluon Build
-        run: mvn -Pios-sim gluonfx:build gluonfx:package
+        run: mvn -Pios gluonfx:build gluonfx:package
         working-directory: Scala_App
       
       - name: Upload Build Artifact
