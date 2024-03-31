@@ -1,10 +1,21 @@
 # ScalaOnMobile---Example-App
 
-<p float="left">
-  <img src="Screenshots/ScreenshotSiggen.png" width="30%" />
-  <img src="Screenshots/Screenshotacc.png" width="30%" />
-  <img src="Screenshots/Screenshotfft.png" width="30%" />
+<p align="center">
+  <figure>
+    <img src="Screenshots/ScreenshotSiggen.png" width="25%" style="margin-right: 10px;">
+    <figcaption>Screenshot Accelerometer</figcaption>
+  </figure>
+  <figure>
+    <img src="Screenshots/Screenshotacc.png" width="25%" style="margin-right: 10px;">
+    <figcaption>Screenshot Signalgenerator 1</figcaption>
+  </figure>
+  <figure>
+    <img src="Screenshots/Screenshotfft.png" width="25%">
+    <figcaption>Screenshot Signalgenerator 2</figcaption>
+  </figure>
 </p>
+
+
 ## Overview
 
 This project explores the migration of Scala applications to mobile platforms, inspired by and building upon the foundational work of [Scala on Android](https://github.com/makingthematrix/scalaonandroid). It serves as a demonstrative example, showcasing the integration of native services via [Gluon Attach](https://gluonhq.com/products/mobile/attach/) without the need for the Gluon Charm Glisten library. The application is developed entirely using free projects offered by Gluon and is available in two versions: Scala and Java, for comparative analysis.
