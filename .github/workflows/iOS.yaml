@@ -1,0 +1,38 @@
+name: iOS
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup GraalVM built by Gluon
+        uses: gluonhq/setup-graalvm@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Install Maven 3.8.8
+        run: |
+          curl -fsSL https://archive.apache.org/dist/maven/maven-3/3.8.8/binaries/apache-maven-3.8.8-bin.tar.gz | tar xz -C $HOME
+          echo "M2_HOME=$HOME/apache-maven-3.8.8" >> $GITHUB_ENV
+          echo "$HOME/apache-maven-3.8.8/bin" >> $GITHUB_PATH
+
+      - name: Verify Maven Version
+        run: mvn -version
+        working-directory: Scala_App
+
+      - name: Gluon Build
+        run: mvn -Pios-sim gluonfx:build gluonfx:package
+        working-directory: Scala_App
+      
+      - name: Upload Build Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: ios-build-artifact
+          path: |
+            /Users/runner/work/ScalaOnMobile---Example-App/ScalaOnMobile---Example-App/Scala_App/target
+
