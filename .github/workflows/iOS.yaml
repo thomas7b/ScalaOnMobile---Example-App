@@ -23,15 +23,15 @@ jobs:
 
       - name: Verify Maven Version
         run: mvn -version
-        working-directory: /Users/runner/work/ScalaOnMobile---Example-App/Scala_App
+        working-directory: Scala_App
 
       - name: Gluon Build
         run: mvn -Pios-sim gluonfx:build gluonfx:package
-        working-directory: /Users/runner/work/ScalaOnMobile---Example-App/Scala_App
+        working-directory: Scala_App
       
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v2
         with:
           name: ios-build-artifact
-          path: /Users/runner/work/ScalaOnMobile---Example-App/Scala_App/target
+          path: Scala_App/target
 
