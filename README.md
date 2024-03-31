@@ -1,19 +1,10 @@
 # ScalaOnMobile---Example-App
-
-<p align="center">
-  <figure>
-    <img src="Screenshots/ScreenshotSiggen.png" width="25%" style="margin-right: 10px;">
-    <figcaption>Screenshot Accelerometer</figcaption>
-  </figure>
-  <figure>
-    <img src="Screenshots/Screenshotacc.png" width="25%" style="margin-right: 10px;">
-    <figcaption>Screenshot Signalgenerator 1</figcaption>
-  </figure>
-  <figure>
-    <img src="Screenshots/Screenshotfft.png" width="25%">
-    <figcaption>Screenshot Signalgenerator 2</figcaption>
-  </figure>
+<p float="left">
+  <img src="Screenshots/ScreenshotSiggen.png" width="25%" />
+  <img src="Screenshots/Screenshotacc.png" width="25%" />
+  <img src="Screenshots/Screenshotfft.png" width="25%" />
 </p>
+
 
 
 ## Overview
