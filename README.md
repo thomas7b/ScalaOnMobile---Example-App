@@ -63,7 +63,7 @@ For Android and iOS, pre-packaged APK files are available, facilitating easy ins
 
 ## Contribution
 
-Contributions to the project are welcome. Please follow the standard fork and pull request workflow. If you have ideas for features or improvements, feel free to open an issue or submit a pull request.
+Contributions to the project are welcome.
 
 
    
