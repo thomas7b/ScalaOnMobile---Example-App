@@ -1,11 +1,4 @@
 # ScalaOnMobile---Example-App
-<p float="left">
-  <img src="Screenshots/ScreenshotSiggen.png" width="25%" />
-  <img src="Screenshots/Screenshotacc.png" width="25%" />
-  <img src="Screenshots/Screenshotfft.png" width="25%" />
-</p>
-
-
 
 ## Overview
 
@@ -23,6 +16,12 @@ The application offers two main functionalities:
    - Generates Continuous Wave or Chirp signals.
    - Plays the audio within the app.
    - Saves the audio file in an external directory managed by Gluon.
+  
+  <p float="left">
+  <img src="Screenshots/ScreenshotSiggen.png" width="20%" />
+  <img src="Screenshots/Screenshotacc.png" width="20%" />
+  <img src="Screenshots/Screenshotfft.png" width="20%" />
+</p>
 
 ## Implementation
 
