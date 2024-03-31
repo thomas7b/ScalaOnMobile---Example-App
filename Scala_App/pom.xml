@@ -268,6 +268,12 @@
                 <gluonfx.target>ios-sim</gluonfx.target>
             </properties>
         </profile>
+        <profile>
+            <id>ios</id>
+            <properties>
+                <gluonfx.target>ios</gluonfx.target>
+            </properties>
+        </profile>
     </profiles>
 
     <repositories>
