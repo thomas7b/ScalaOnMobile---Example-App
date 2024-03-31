@@ -1,7 +1,7 @@
 # ScalaOnMobile---Example-App
-![Screenshot Accelerometer](screenshots/ScreenshotSiggen.png)
-![Screenshot Signalgenerator 1](screenshots/Screenshotacc.png)
-![Screenshot Signalgenerator 2](screenshots/Screenshotfft.png)
+![Screenshot Accelerometer](Screenshots/ScreenshotSiggen.png)
+![Screenshot Signalgenerator 1](Screenshots/Screenshotacc.png)
+![Screenshot Signalgenerator 2](Screenshots/Screenshotfft.png)
 
 ## Overview
 
