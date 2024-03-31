@@ -33,5 +33,6 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: ios-build-artifact
-          path: Scala_App/target
+          path: |
+            /Users/runner/work/ScalaOnMobile---Example-App/Scala_App/target
 
