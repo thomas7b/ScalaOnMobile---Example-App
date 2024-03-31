@@ -41,5 +41,5 @@ jobs:
         with:
           name: ios-build-artifact
           path: |
-            /Users/runner/work/helloscala/helloscala/target
+            /Users/runner/work/ScalaOnMobile---Example-App/Scala_App/target
 
