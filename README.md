@@ -50,7 +50,7 @@ For Android and iOS, pre-packaged APK files are available, facilitating easy ins
 ```bash
 sudo apt-get install libasound2-dev libavcodec-dev libavformat-dev libavutil-dev libfreetype6-dev
 sudo apt-get install libgl-dev libglib2.0-dev libgtk-3-dev libpango1.0-dev libx11-dev libxtst-dev zlib1g-dev
-```bash
+```
 
 - For iOS development, macOS is required.
 
