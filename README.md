@@ -15,7 +15,7 @@ The application offers two main functionalities:
 2. **Audio Signal Generation:**
    - Generates Continuous Wave or Chirp signals.
    - Plays the audio within the app.
-   - Saves the audio file in an external directory managed by Gluon.
+   - Saves the audio file in an external directory under "/Gluon".
   
   <p float="left">
   <img src="Screenshots/Screenshotacc.png" width="20%" />
